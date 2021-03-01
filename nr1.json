@@ -1,6 +1,6 @@
 {
-    "schemaType": "NERDPACK",
-    "id": "regenerate-unique-uuid",
-    "displayName": "Vizs",
-    "description": "Nerdpack vizs"
+  "schemaType": "NERDPACK",
+  "id": "regenerate-unique-uuid",
+  "displayName": "Nerd Vlog Demo Visualization",
+  "description": "Example Nerdpack with visualization"
 }
