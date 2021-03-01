@@ -1,6 +1,6 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# Nerd Vlog Demo Visualization
+# Nerd Log Demo Visualization
 
 > This is an example Nerdpack with a Visualization that was built during the NerdLog session the last week of February 2021.
 
@@ -8,12 +8,14 @@
 
 > To get started, you'll need the [New Relic One CLI](https://developer.newrelic.com/explore-docs/nr1-cli). Follow the setup instructions there and then run the following: 
 
-  1. Run `nr1 nerdpack:uuid -g` to generate a UUID associated with your selected profile. 
+  1. This repo contains a `.nvmrc`, if you use nvm locally, run `nvm use` or set your node version to 10 using your preffered node version manager.
+  1. Run `nr1 nerdpack:uuid -g` to generate a UUID associated with your selected profile.
   
   > _Note: you can see what your current default profile is & update the default by running `nr1 profiles:default`._
 
   1. Run `npm install` to install dependencies.
-  1. Run `nr1 nerdpack:serve` and click the link in the terminal output to load the locally running nerdpack in New Relic.
+  1. Run `nr1 nerdpack:serve` 
+  1. Click the link in the terminal output to load the locally running nerdpack in New Relic or add `nerdpacks=local` to the URL query string in your New Relic One view.
 
 ## Getting Started
 > You can add more Visualizations and other Nerdpack related code by running `nr1 create` if you want to extend this Nerdpack further, or try making adjustments to the current Visualization! For more documentation, visit https://developer.newrelic.com. 

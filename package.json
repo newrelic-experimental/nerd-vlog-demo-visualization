@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "nerd-vlog-demo-visualization",
+    "name": "nerd-log-demo-visualization",
     "version": "1.0.0",
     "scripts": {
         "start": "nr1 nerdpack:serve",
