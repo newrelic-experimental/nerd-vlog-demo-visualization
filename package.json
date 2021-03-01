@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "vizs",
+    "name": "nerd-vlog-demo-visualization",
     "version": "1.0.0",
     "scripts": {
         "start": "nr1 nerdpack:serve",
