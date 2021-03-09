@@ -1,27 +1,26 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Name of Project] [build badges go here when available]
+# Nerd Log Demo Visualization
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+> This is an example Nerdpack with a Visualization that was built during the NerdLog session the last week of February 2021.
 
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+> To get started, you'll need the [New Relic One CLI](https://developer.newrelic.com/explore-docs/nr1-cli). Follow the setup instructions there and then run the following: 
+
+  1. This repo contains a `.nvmrc`, if you use nvm locally, run `nvm use` or set your node version to 10 using your preffered node version manager.
+  1. Run `nr1 nerdpack:uuid -g` to generate a UUID associated with your selected profile.
+  
+  > _Note: you can see what your current default profile is & update the default by running `nr1 profiles:default`._
+
+  1. Run `npm install` to install dependencies.
+  1. Run `nr1 nerdpack:serve` 
+  1. Click the link in the terminal output to load the locally running nerdpack in New Relic or add `nerdpacks=local` to the URL query string in your New Relic One view.
 
 ## Getting Started
->[Simple steps to start working with the software similar to a "Hello World"]
+> You can add more Visualizations and other Nerdpack related code by running `nr1 create` if you want to extend this Nerdpack further, or try making adjustments to the current Visualization! For more documentation, visit https://developer.newrelic.com. 
 
-## Usage
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
-
-
-## Building
-
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
-
-## Testing
-
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
+> Check out [common CLI commands](https://developer.newrelic.com/explore-docs/nr1-common), or our [guides to building on New Relic](https://developer.newrelic.com/build-apps).
 
 ## Support
 
